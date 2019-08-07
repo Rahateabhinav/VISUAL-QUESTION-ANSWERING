@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<body background=https://i0.wp.com/thewallpaper.co/wp-content/uploads/2016/10/paris-pen-and-pencil-drawing-wallpaper-hd-widescreen-download-hd-background-images-windows-apple-cool-free-high-definition-1366x768.jpg>
+<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+<p><font size="50" style="border:10px out set orange ; padding:8px; margin:2px; color:dark black;font-style:Georgia; font-size:70px"><center>VISUAL QUESTION ANSWER</center></font></p>
+<br>
+ <div align="center">
+     <form id = "upload form" action = /upload method = "POST" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*" multiple>
+            <input class="btn btn-primary" type="submit" value="SUBMIT">
+     </form>
+ </div>
+ <br>
+
+    <div style="padding-left:10px" align = 'center'>
+                <img src="/static/{{ image }}">
+                  <div class="container info">
+    <div class="row"><div class="col-lg-12">
+                  </div>
+    </div>
+
+<br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: center;
+  width: 50%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: center;
+  width: 10%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head></div>
+<body>
+<br>
+<br>
+
+<form align="center" class="example" action="/go" method = "POST">
+
+  <input type="text" placeholder="Type your questions here. e.g: What animal is this?" name="question">
+  <button type="submit"><i class="fa fa-search"></i></button>
+  <h3>{{ ans1 }}</h3>
+  <h3>{{ ans2 }}</h3>
+  <h3>{{ ans3 }}</h3>
+  <h3>{{ ans4 }}</h3>
+  <h3>{{ ans5 }}</h3>
+</form>
+</body>
+</body>
+</html></body>
